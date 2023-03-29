@@ -344,10 +344,7 @@ footer .logo{margin: 0;}
                  color: var(--light-color);
                  background-color: var(--brand-color);
                  padding: 40px;
-                 height: 100%;
-                 margin: 0;
-                 padding: 0;
-                 }
+                 height: 100%;}
 .port-item{flex-basis: calc((100% - 48px) / 3);}
 /*.port-list .link:hover, .port-list .link:focus{box-shadow: 
     0px 1px 6px rgba(46, 47, 66, 0.08), 
