@@ -27,11 +27,18 @@ body {
 .header-div{display: flex;}
 .header-list{gap: 40px;
              margin: 0; padding: 0;}
-
+.header-list::before{content: '';
+    width: 48px;
+    position: absolute;
+    height: 4px;
+    left: 0px;
+    top: 44px;
+    background: #404BBF;
+    border-radius: 2px;}
 .header-nav{display: flex;
             align-items: center;
-        padding-top: 24px;
-    padding-bottom: 24px;}
+            padding-top: 24px;
+            padding-bottom: 24px;}
 .header-contacts{color: var(--gray-color); font-style: normal;}
 .header-contacts:hover, .header-contacts:focus{color: var(--violet-color);}
 .header-add{list-style: none;
@@ -319,6 +326,12 @@ footer .logo{margin: 0;}
             margin: 0;
             list-style: none;}
 .port-img{margin: 0; padding: 0;}
+.port-cover-text{position: absolute;
+                 top: 0;
+                 font-size: 16px;
+                 font-weight: 400;
+                 line-height: 1.5;
+                 color: var(--light-color);}
 .port-item{flex-basis: calc((100% - 48px) / 3);}
 /*.port-list .link:hover, .port-list .link:focus{box-shadow: 
     0px 1px 6px rgba(46, 47, 66, 0.08), 
