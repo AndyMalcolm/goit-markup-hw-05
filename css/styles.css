@@ -25,16 +25,16 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;}
 .header-div{display: flex;}
-.header-list{
-            gap: 40px;
-            margin: 0; padding: 0;}
+.header-list{gap: 40px;
+             margin: 0; padding: 0;}
+
 .header-nav{display: flex;
             align-items: center;
         padding-top: 24px;
     padding-bottom: 24px;}
 .header-contacts{color: var(--gray-color); font-style: normal;}
 .header-contacts:hover, .header-contacts:focus{color: var(--violet-color);}
-.header-add{list-style: none; 
+.header-add{list-style: none;
             font-style: normal; 
             margin-left: 332px; 
             padding-top: 24px; 
