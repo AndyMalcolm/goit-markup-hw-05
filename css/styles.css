@@ -400,6 +400,7 @@ footer .logo{margin: 0;}
     width: 100%;
     height: 100%;
     background-color: rgba(46, 47, 66, 0.4);
+    transition: opacity 250ms linear, visibility 250ms linear;
 }
 .modal{width: 408px;
     height: 576px;
@@ -410,9 +411,9 @@ footer .logo{margin: 0;}
     top: 52%;
     left: 50%;
     transform: translate(-50%, -50%);
+    transition: transform 250ms linear;
     padding: 24px;}
-.modal-icon{
-            }
+.modal-icon{}
 .modal-button{display: block;
               margin-left: auto;
               background-color: var(--lighter-color);
@@ -424,3 +425,4 @@ footer .logo{margin: 0;}
 .is-hidden{opacity: 0;
            visibility: hidden;
            pointer-events: none;}
+.no-scroll{overflow: hidden;}
