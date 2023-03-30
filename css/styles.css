@@ -409,4 +409,7 @@ footer .logo{margin: 0;}
     position: absolute;
     top: 52%;
     left: 50%;
-    transform: translate(-50%, -50%);}
+    transform: translate(-50%, -50%);
+    padding: 24px;}
+.modal-button{display: block;
+              margin-left: auto;}
