@@ -388,7 +388,7 @@ footer .logo{margin: 0;}
 :root{--white-color:  #FFFFFF;}
 :root{--light-gray-color: #8E8F99;}
 :root{--green-color: #31D0AA;}
-:root{--window-color: #FCFCFC}
+:root{--window-color: #FCFCFC;}
 
 
     /*_____WINDOW-OKOSHKO_____*/
@@ -411,10 +411,16 @@ footer .logo{margin: 0;}
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 24px;}
-.modal-icon{color: var(--darker-color);
+.modal-icon{
             }
 .modal-button{display: block;
               margin-left: auto;
               background-color: var(--lighter-color);
               border: 1px solid rgba(0, 0, 0, 0.1);
+              color: var(--darker-color);
               border-radius: 50%;}
+.modal-button:hover, .modal-button:focus{color: var(--white-color);
+                                         background-color: var(--violet-color);}
+.is-hidden{opacity: 0;
+           visibility: hidden;
+           pointer-events: none;}
