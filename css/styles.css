@@ -388,3 +388,25 @@ footer .logo{margin: 0;}
 :root{--white-color:  #FFFFFF;}
 :root{--light-gray-color: #8E8F99;}
 :root{--green-color: #31D0AA;}
+:root{--window-color: #FCFCFC}
+
+
+    /*_____WINDOW-OKOSHKO_____*/
+
+
+.backdrop{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(46, 47, 66, 0.4);
+}
+.modal{width: 408px;
+    height: 576px;
+    background-color: var(--window-color);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);}
