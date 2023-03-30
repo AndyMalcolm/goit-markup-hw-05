@@ -347,7 +347,7 @@ footer .logo{margin: 0;}
                  margin: 0;
                  height: 100%;
                  transform: translateY(100%);
-                 transition: transform 300ms linear;}
+                 transition: transform 250ms linear cubic-bezier(0.4, 0, 0.2, 1);}
 .port-item{flex-basis: calc((100% - 48px) / 3);}
 .port-item:hover .port-cover-text{transform: translateY(0);
                                   transition: transform 300ms linear;}
