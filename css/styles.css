@@ -411,18 +411,18 @@ footer .logo{margin: 0;}
     top: 52%;
     left: 50%;
     transform: translate(-50%, -50%);
-    transition: transform 250ms linear;
+    transition: transform 250ms linear;/*РАЗОБРАТЬСЯ*/
     padding: 24px;}
-.modal-icon{}
 .modal-button{display: block;
               margin-left: auto;
               background-color: var(--lighter-color);
               border: 1px solid rgba(0, 0, 0, 0.1);
-              color: var(--darker-color);
+              color: var(--darker-color);/*РАЗОБРАТЬСЯ*/
               border-radius: 50%;}
-.modal-button:hover, .modal-button:focus{color: var(--white-color);
+.modal-button:hover, .modal-button:focus{color: var(--white-color);/*РАЗОБРАТЬСЯ*/
                                          background-color: var(--violet-color);}
 .is-hidden{opacity: 0;
            visibility: hidden;
            pointer-events: none;}
 .no-scroll{overflow: hidden;}
+/*РАЗОБРАТЬСЯ с подчеркиванием хедера*/
