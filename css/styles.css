@@ -27,22 +27,20 @@ body {
 .header-div{display: flex;}
 .header-list{gap: 40px;
              margin: 0; padding: 0;}
-.header-list::before{content: '';
-    width: 48px;
-    position: absolute;
-    height: 4px;
-    left: 0px;
-    top: 44px;
-    background: #404BBF;
-    border-radius: 2px;}
 .header-list::after{position: absolute;
     content: '';
-    width: 66px;
+    width: 48px;
     height: 4px;
-    left: 0px;
-    top: 44px;
+    top: 69px;
     background: #404BBF;
     border-radius: 2px;}
+    .header-list::after{position: absolute;
+        content: '';
+        width: 66px;
+        height: 4px;
+        top: 69px;
+        background: forestgreen;
+        border-radius: 2px;}
 .header-nav{display: flex;
             align-items: center;
             padding-top: 24px;
