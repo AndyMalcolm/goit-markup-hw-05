@@ -418,10 +418,11 @@ footer .logo{margin: 0;}
               margin-left: auto;
               background-color: var(--lighter-color);
               border: 1px solid rgba(0, 0, 0, 0.1);
-              color: var(--darker-color);/*РАЗОБРАТЬСЯ*/
               border-radius: 50%;}
-.modal-button:hover, .modal-button:focus{color: var(--white-color);/*РАЗОБРАТЬСЯ*/
-                                         background-color: var(--violet-color);}
+.modal-button:hover, .modal-button:focus{background-color: var(--violet-color);}
+.modal-icon{fill: var(--darker-color);}
+.modal-button:hover .modal-icon{fill: var(--white-color);}
+.modal-button:focus .modal-icon{fill: var(--white-color);}
 .is-hidden{opacity: 0;
            visibility: hidden;
            pointer-events: none;}
