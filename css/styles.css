@@ -40,7 +40,7 @@ body {
         height: 4px;
         top: 69px;
         background: forestgreen;
-        border-radius: 2px;}
+        border-radius: 2px;}/*РАЗОБРАТЬСЯ*/
 .header-nav{display: flex;
             align-items: center;
             padding-top: 24px;
