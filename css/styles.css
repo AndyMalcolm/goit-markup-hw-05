@@ -409,9 +409,12 @@ footer .logo{margin: 0;}
     top: 52%;
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
-    transition: transform 250ms linear;/*РАЗОБРАТЬСЯ*/
+    transition: scale 250ms linear;/*РАЗОБРАТЬСЯ*/
     padding: 24px;}
-.modal-button{display: block;
+.modal-button{display: flex;
+              width: 24px; height: 24px;
+              justify-content: center;
+              align-items: center;
               margin-left: auto;
               background-color: var(--lighter-color);
               border: 1px solid rgba(0, 0, 0, 0.1);
