@@ -38,7 +38,7 @@ body {
                     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 .header-link:hover, .header-link:focus{color: var(--violet-color);}
 .header-link:hover::after{transform: scaleX(1);}
-.stick::before{width: 48px;
+/*.stick::before{width: 48px;
     height: 4px;
     border-radius: 2px;
     background-color: #31D0AA;
@@ -55,7 +55,13 @@ body {
     border-radius: 2px;
     background-color: #31D0AA;
     display: block;
-    position: absolute;}
+    position: absolute;}*/
+.stick::before, .stick::after{content: ""; 
+    width: 48px;
+    height: 4px;
+    background-size: contain;}
+.stick::before{padding-bottom: 20px;}
+.stick::after{display: none;}
 .header-div{display: flex;}
 .header-list{gap: 40px;
              margin: 0; padding: 0;}
