@@ -30,6 +30,7 @@ body {
                     content: '';
                     position: absolute;
                     left: 0;
+                    bottom: -27px;
                     height: 4px;
                     background: #404BBF;
                     border-radius: 2px;
