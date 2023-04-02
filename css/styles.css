@@ -423,7 +423,7 @@ footer .logo{margin: 0;}
     transform: translate(-50%, -50%) scaleX(1);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 24px;}
-.backdrop.is-hidden .modal{transform: translate(50%, -50%) scaleX(2);}
+.backdrop.is-hidden .modal{transform: translate(-50%, -50%) scaleX(0);}
 .modal-button{display: flex;
               width: 24px; height: 24px;
               justify-content: center;
