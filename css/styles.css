@@ -24,7 +24,8 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    position: relative;}
+    position: absolute;
+    position: relative; padding-bottom: 20px;}
 .header-link::after{display: block;
                     width: 100%;
                     content: '';
@@ -43,7 +44,8 @@ body {
                 border-radius: 2px;
                 background-color: #31D0AA;
                 display: block;
-                content: '';}
+                content: '';
+                position: relative;}
 .pryklad-port{width: 66px;
     height: 4px;
     border-radius: 2px;
