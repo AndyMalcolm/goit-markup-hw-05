@@ -30,7 +30,7 @@ body {
                     content: '';
                     position: absolute;
                     left: 0;
-                    bottom: -27px;
+                    bottom: 0;
                     height: 4px;
                     background: #404BBF;
                     border-radius: 2px;
@@ -38,24 +38,18 @@ body {
                     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 .header-link:hover, .header-link:focus{color: var(--violet-color);}
 .header-link:hover::after{transform: scaleX(1);}
-/*.stick{width: 48px; 
-         height: 4px;
-         border-radius: 2px;
-         background-color: #31D0AA;
-         display: block;
-         position: absolute;}*/
+.stick::before{width: 48px; 
+    height: 4px;
+    border-radius: 2px;
+    background-color: #31D0AA;
+    display: block;
+    position: absolute;}
 .stick::after{width: 48px; 
     height: 4px;
     border-radius: 2px;
     background-color: #31D0AA;
     display: block;
     position: absolute;}
-/*.stick-port{width: 66px;
-    height: 4px;
-    border-radius: 2px;
-    background-color: #31D0AA;
-    display: block;
-    position: absolute;}*/
 .stick-port::after{width: 66px;
     height: 4px;
     border-radius: 2px;
