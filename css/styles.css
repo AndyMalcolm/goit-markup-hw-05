@@ -32,36 +32,20 @@ body {
                     left: 0;
                     bottom: 0;
                     height: 4px;
-                    background: #404BBF;
+                    background: var(--violet-color);
                     border-radius: 2px;
                     transform: scaleX(0);
                     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 .header-link:hover, .header-link:focus{color: var(--violet-color);}
 .header-link:hover::after{transform: scaleX(1);}
-/*.stick::before{width: 48px;
-    height: 4px;
-    border-radius: 2px;
-    background-color: #31D0AA;
-    display: block;
-    position: absolute;}
-.stick::after{width: 48px; 
-    height: 4px;
-    border-radius: 2px;
-    background-color: #31D0AA;
-    display: block;
-    position: absolute;}
-.stick-port::after{width: 66px;
-    height: 4px;
-    border-radius: 2px;
-    background-color: #31D0AA;
-    display: block;
-    position: absolute;}*/
-.stick::before, .stick::after{content: ""; 
+.stick::before{content: ""; 
     width: 48px;
     height: 4px;
-    background-size: contain;}
-.stick::before{padding-bottom: 20px;}
-.stick::after{display: none;}
+    display: block;
+    background-color: var(--violet-color);
+    position: absolute;
+    border-radius: 2px;
+    bottom: -7px;}
 .header-div{display: flex;}
 .header-list{gap: 40px;
              margin: 0; padding: 0;}
@@ -137,7 +121,7 @@ body {
     height: 56px;
     border: none;
     border-radius: 4px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 .sec-button:hover, .sec-button:focus{background-color: var(--violet-color);
 color: var(--white-color);}
 .link{text-decoration: none;}
@@ -186,6 +170,7 @@ color: var(--white-color);}
          border-radius: 4px;}
 .scores-icon{display: flex;
              justify-content: center;}
+             transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 /*____SECTION THREE____*/
 
@@ -444,7 +429,8 @@ footer .logo{margin: 0;}
               margin-left: auto;
               background-color: var(--lighter-color);
               border: 1px solid rgba(0, 0, 0, 0.1);
-              border-radius: 50%;}
+              border-radius: 50%;
+              transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 .modal-button:hover, .modal-button:focus{background-color: var(--violet-color);}
 .modal-icon{fill: var(--darker-color);}
 .modal-button:hover .modal-icon{fill: var(--white-color);}
