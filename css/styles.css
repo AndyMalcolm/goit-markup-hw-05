@@ -69,7 +69,9 @@ body {
             align-items: center;
             padding-top: 24px;
             padding-bottom: 24px;}
-.header-contacts{color: var(--gray-color); font-style: normal;}
+.header-contacts{color: var(--gray-color); 
+                 font-style: normal;
+                 transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 .header-contacts:hover, .header-contacts:focus{color: var(--violet-color);}
 .header-add{list-style: none;
             font-style: normal; 
@@ -134,7 +136,8 @@ body {
     width: 169px;
     height: 56px;
     border: none;
-    border-radius: 4px;}
+    border-radius: 4px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 .sec-button:hover, .sec-button:focus{background-color: var(--violet-color);
 color: var(--white-color);}
 .link{text-decoration: none;}
