@@ -30,6 +30,7 @@ body {
                     content: '';
                     position: absolute;
                     left: 0;
+                    margin-bottom: -7px;
                     bottom: 0;
                     height: 4px;
                     background: var(--violet-color);
